@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.img-detailsContainer{
+    background-color: rgba(128,128,128,0.1);
+    height:50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imgHolder{
+    width:10em;
+    height:10rem;
+    background-image: url("../images/profile.webp");
+    background-size: contain;
+    background-repeat:no-repeat;
+    border-radius:4.5em;
+    border:2px black solid;
+    margin-bottom:20px;
+}
+#plusHolder{
+    width:3rem;
+    height:3rem;
+    background-image:url("../images/plus.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 5rem;
+    position: relative;
+    left:40px;
+    bottom:50px;
+    z-index: 2;
+}
+.details-container{
+    text-decoration: none;
+}
+ul{
+ list-style-type: none;   
+ display: flex;
+ column-gap: 1em;
+ font-size: 20px;
+}
+.info-Container{
+    margin:5em;
+    padding:2em 2em 2em 2em;
+    background-color: rgba(128,128,128,0.3);
+}
+.box-Container{
+    margin-top:2em;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    }
+p{
+    font-size:2em;
+    text-align: center;
+}
+.box{
+    width: 50em;
+    height:50em;
+    margin:5px;
+    border:1px rgba(128,128,128,0.9) solid;
+    text-align:center;
+    align-content: center;
+}
+.footer-Container{
+    padding:2em 2em 2em 2em;
+    background-color: rgba(128,128,128,0.1);
+    text-align:center;
+}
