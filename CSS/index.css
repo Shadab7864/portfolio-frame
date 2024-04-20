@@ -11,8 +11,8 @@
     align-items: center;
 }
 #imgHolder{
-    width:10em;
-    height:10rem;
+    width:15em;
+    height:15rem;
     background-image: url("../images/profile.webp");
     background-size: contain;
     background-repeat:no-repeat;
@@ -21,16 +21,20 @@
     margin-bottom:20px;
 }
 #plusHolder{
-    width:3rem;
-    height:3rem;
+    width:4.5rem;
+    height:4.5rem;
     background-image:url("../images/plus.jpg");
     background-size:contain;
     background-repeat: no-repeat;
     border-radius: 5rem;
     position: relative;
-    left:40px;
-    bottom:50px;
+    left:60px;
+    bottom:60px;
     z-index: 2;
+}
+.name{
+    position: relative;
+    bottom:20px;
 }
 .details-container{
     text-decoration: none;
@@ -45,6 +49,7 @@ ul{
     margin:5em;
     padding:2em 2em 2em 2em;
     background-color: rgba(128,128,128,0.3);
+    text-align: center;
 }
 .box-Container{
     margin-top:2em;
@@ -61,12 +66,38 @@ p{
     width: 50em;
     height:50em;
     margin:5px;
-    border:1px rgba(128,128,128,0.9) solid;
+    border:1px rgba(128,128,128,0.7) solid;
     text-align:center;
     align-content: center;
+    background-color:#6d6d693b;
 }
 .footer-Container{
     padding:2em 2em 2em 2em;
     background-color: rgba(128,128,128,0.1);
     text-align:center;
 }
+.box:hover{
+    border : 3rem rgba(128,128,128,0) solid;
+    border-radius: 2rem;
+    transition: all 1s ease-in ;
+} 
+#box1:hover:after{
+    transition-property: all;
+    content: "Details About my First Project";
+}
+#box2:hover:after{
+    transition-property: all;
+    content: "Details About my Second Project";
+}
+#box3:hover:after{
+    transition-property: all;
+    content: "Details About my Third Project";
+}
+#box4:hover:after{
+    transition-property: all;
+    content: "Details About my Fourth Project";
+}
+.box:hover span {
+    display: none
+  }
+  
